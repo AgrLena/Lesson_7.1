@@ -1,0 +1,187 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700,900&display=swap;");
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "Roboto",serif;
+	}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+.header{
+	background: url(../img/Big_Image.png)50%/cover no-repeat;
+	max-width: 1440px;
+	padding:280px 0px 312px 0px;
+	}
+.box{
+	max-width: 1020px;
+	margin: 0px auto;
+		}
+.title_1{
+	display: inline-block;
+	max-width: 583px;
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 56px;
+	color:#fff;
+	margin: 0px 0px 48px 0px;
+}
+.button{
+	display: block;
+	max-width: 211px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 15px 30px 15px 15px;
+	background:  url(../img/arrow.png) 95% no-repeat, url(../img/red_2.png)100% no-repeat, url(../img/red.png) 50%/cover;
+}
+.about{
+	background: url(../img/pain.png)101% 0 no-repeat, url(../img/BGImage.png)50%/cover;
+	padding: 111px 0px 211px 0px;
+}
+.pain{
+	margin: 0px 0px 79px 0px;
+}
+.minibox{
+	display: inline-block;
+	max-width: 410px;
+	margin: 0px 111px 0px 0px;
+
+}
+.subtitle {
+	background: url(../img/OverlineMark.png)no-repeat;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #D5D5D5;
+	padding: 0px 0px 0px 33px;
+	margin: 0px 0px 32px 0px;
+}
+.title_2 {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #fff;
+	margin: 0px 0px 0px 0px;
+}
+.image{
+	max-width: 100%;
+	vertical-align: top;
+	display: inline-block;
+	margin: -179px 0px 0px 0px;
+}
+.list li {
+	width: 237px;
+	height: 76px;
+	display: inline-block;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #F5F5F5;
+	vertical-align: top;
+	margin: 0px 15px 20px 0px;
+	padding: 0px 0px 0px 88px;
+
+}
+.list h6{
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #C40B0B;
+}
+.oil {
+	background: url(../img/car_oil-24x.png) no-repeat;
+}
+.transmission {
+	background: url(../img/car_transmission_24x.png) no-repeat;
+}
+.alignments {
+	background: url(../img/car_alignment_24x.png) no-repeat;
+}
+.engines {
+	background: url(../img/car_engine_2_24x.png) no-repeat;
+}
+
+.contact{
+	max-width: 237px;
+	margin: 0px 0px 0px auto;
+}
+.title_3{
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	text-transform: uppercase;
+	margin: 0px 0px 28px 0px;
+}
+.contacts li{
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	padding: 0px 0px 0px 36px;
+	margin: 0px 0px 16px 0px;
+	}
+.place {
+	background: url(../img/place_24px.png)no-repeat;
+	
+}
+.tel {
+	background: url(../img/smartphone_24px.png)no-repeat;
+}
+.mail {
+	background: url(../img/email_24px.png)no-repeat;
+}
+.time {
+	background: url(../img/timer_24px.png)no-repeat;
+}
